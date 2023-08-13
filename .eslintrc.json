@@ -13,16 +13,12 @@
   },
   "rules": {
     "semi": "off",
-    // Configure the desired indentation rule
     "indent": ["error", 2],
-    // ignore either single or double quotes meaning (use '' or " it is valid)
     "quotes": ["error", "single"],
-    // "camelcase": ["error", { "properties": "always" }],
     "camelcase":"error",
     "react/prop-types": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": "off",
-    // max char in one line
     "max-len": ["error", { "code": 110 }],
     "no-trailing-spaces": "error",
     "arrow-body-style": "off",
